@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(270deg,rgb(224, 105, 105),rgb(233, 173, 173),rgb(224, 105, 105));
+}
+
+.container-fluid{
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(360deg,red,black,red);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
+    font-size: 2rem;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.card{
+    background: linear-gradient(270deg,rgb(160, 30, 30),rgb(233, 173, 173),rgb(160, 30, 30));
+    padding: 0;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 1.5rem;
+    div{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+}
+
+button{
+    font-weight: bolder;
+    color: lightblue;
+    background-color: green;
+}
+
+.container .forCard{
+    background: linear-gradient(270deg,rgb(160, 30, 30),rgb(233, 173, 173),rgb(160, 30, 30));
+    padding: 0;
+    width: 100%;
+    height: 90%;
+    font-size: 1.5rem;
+    div{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px black;
+    }
+    .card-header{
+        background-color: black;
+    }
+    
+}
+.searchContent{
+    z-index: 1;
+}
+
+.inputDiv{
+    top: 60px;
+    z-index: 1;
+}
+
+.searchCont{
+    top:20px
+}
